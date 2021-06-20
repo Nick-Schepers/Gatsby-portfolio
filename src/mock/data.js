@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Camp2Camp',
     info: 'Een vernieuwde website maken, waarop zowel informatie over Camp2Camp kan gevonden worden en waarop een webshop voor de producten en campings ter beschikking is.',
     info2: '+ Een back-end, geschreven in C#, waarop Camp2Camp hun producten kan beheren.',
-    url: 'http://camping.easy-cms.be/',
+    url: 'http://camping.easy-cms.be/', // if no url, the button will not show up
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -50,7 +50,7 @@ export const projectsData = [
     title: 'Coeck NV: A-frames volgen',
     info: 'Een low-power tracker maken die de A-frames in kaart kan brengen. Dit wordt verwezelijkt dankzij LoRaWan- en GPS-module.',
     info2: '',
-    url: '',
+    url: '', // if no url, the button will not show up
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -59,7 +59,7 @@ export const projectsData = [
     title: 'Gatsby: Wiki-like site',
     info: 'Gatsby gebruiken om een moderne Wiki-like site op te bouwen. D.m.v. het React-gebasseerde framework, met markdown de data toonbaar maken op een website.',
     info2: '',
-    url: '',
+    url: '', // if no url, the button will not show up
     repo: 'https://github.com/Nick-Schepers/Gatsby-Wiki', // if no repo, the button will not show up
   },
 ];
@@ -77,22 +77,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/MrSchepers',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/nick-schepers-16602b1b8/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Nick-Schepers',
+    },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/schepers.nick/',
     },
   ],
 };
