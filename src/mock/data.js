@@ -2,17 +2,17 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Nick Schepers', // e.g: 'Name | Developer'
+  lang: 'nl', // e.g: en, es, fr, jp
+  description: 'Dit een een showcase-portfolio van al de projecten waar ik in 2DI aan gewerkt heb.', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Portfolio van',
+  name: 'Nick Schepers',
+  subtitle: '2020 - 2021',
+  cta: 'Lees meer...',
 };
 
 // ABOUT DATA
@@ -21,37 +21,46 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'Camp2CampProject.jpg',
+    title: 'Camp2Camp',
+    info: 'Een vernieuwde website maken, waarop zowel informatie over Camp2Camp kan gevonden worden en waarop een webshop voor de producten en campings ter beschikking is.',
+    info2: '+ Een back-end, geschreven in C#, waarop Camp2Camp hun producten kan beheren.',
+    url: 'http://camping.easy-cms.be/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'DeWaaiburgProject.jpg',
+    title: 'De Waaiburg',
+    info: 'Een informatieve app maken, waarop de gebruiker zowel informatie van de verschillende afdelingen van De Waaiburg kan vinden.',
+    info2: 'Deze app zou uiteindelijk ook een account-systeem bevatten, waarop de gebruiker dan zijn vooruitgang kan bezichtigen, feedback kan geven, zijn "doelenboom" kan bekijken, enz..',
+    url: 'https://www.figma.com/proto/BP26XtdA5cJC1rxU8LEivT/Waaiburg-App?node-id=37%3A65&scaling=min-zoom&page-id=0%3A1',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'CoeckNVProject.jpg',
+    title: 'Coeck NV: A-frames volgen',
+    info: 'Een low-power tracker maken die de A-frames in kaart kan brengen. Dit wordt verwezelijkt dankzij LoRaWan- en GPS-module.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'GatsbyProject.jpg',
+    title: 'Gatsby: Wiki-like site',
+    info: 'Gatsby gebruiken om een moderne Wiki-like site op te bouwen. D.m.v. het React-gebasseerde framework, met markdown de data toonbaar maken op een website.',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/Nick-Schepers/Gatsby-Wiki', // if no repo, the button will not show up
   },
 ];
 

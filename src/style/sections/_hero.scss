@@ -17,7 +17,7 @@
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-  /* background: url("/src/assets/[your-image].png");
+  /* background: url("/src/assets/heroImage.jpg");
   background-position: center;
   background-size: cover; */
 
@@ -46,7 +46,27 @@
       font-size: 2.8rem;
     }
   }
+  .hero-subtitle {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 3.2rem;
+    text-align: left;
 
+    @include respond(tab-land) {
+      font-size: 3.6rem;
+    }
+    @include respond(tab-port) {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+    @include respond(phone) {
+      font-size: 2.8rem;
+      line-height: 1.5;
+    }
+    @include respond(phone-xs) {
+      font-size: 1.2rem;
+    }
+  }
   .hero-cta {
     display: flex;
 

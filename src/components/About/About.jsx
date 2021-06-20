@@ -39,14 +39,14 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Ik ben Nick Schepers, een gepassioneerde, groeiende developer. In mijn vrije tijd hou ik mij bezig met mezelf nieuwe dingen aan te leren, zowel IT-gerelateerde als niet-IT-gerelateerd. Zo hou ik mij ook bezig met het luisteren naar muziek of het bespelen van mijn gitaar of piano. '}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Mijn creativiteit steek ik niet alleen in het muzikale gedeelte van mezelf, maar gebruik ik ook in beeldmateriaal: Dit kan gaan van het bewerken van een goede vriend zijn gaming-streams, tot het photoshoppen van mijn eigen profielfoto \'s.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || 'Door de grote groei in de IT-wereld, heb ik ervoor gekozen om op avontuurlijk pad te gaan en te kiezen voor Digital Innovation in de IT Factory Thomas More Kempen. Om dit avontuur in de toekomst verder te zetten, zou ik graag voor een bedrijf willen werken dat zich focust op deze groei.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
