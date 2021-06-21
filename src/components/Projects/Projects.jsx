@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
+import { Link, graphql } from 'gatsby';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -28,7 +29,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projecten" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, repo, img, id, infolink } = project;
 
             return (
               <Row key={id}>
@@ -43,22 +44,19 @@ const Projects = () => {
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
-                        <p>
-                          {info ||
-                            ''}
-                        </p>
+                        <p>{info || ''}</p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       {url && (
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
-                      >
-                        See Live
-                      </a>)}
-                      
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--hero"
+                          href={url || '#!'}
+                        >
+                          See Live
+                        </a>
+                      )}
 
                       {repo && (
                         <a
@@ -82,12 +80,7 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__image">
-                      <a
-                        href={url || '#!'}
-                        target="_blank"
-                        aria-label="Project Link"
-                        rel="noopener noreferrer"
-                      >
+                    <Link to={url || '#!'} target="_blank">
                         <Tilt
                           options={{
                             reverse: false,
@@ -105,7 +98,7 @@ const Projects = () => {
                             <ProjectImg alt={title} filename={img} />
                           </div>
                         </Tilt>
-                      </a>
+                      </Link>
                     </div>
                   </Fade>
                 </Col>

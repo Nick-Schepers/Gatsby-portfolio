@@ -34,6 +34,7 @@ export const projectsData = [
     info2: '+ Een back-end, geschreven in C#, waarop Camp2Camp hun producten kan beheren.',
     url: 'http://camping.easy-cms.be/', // if no url, the button will not show up
     repo: '', // if no repo, the button will not show up
+    infolink: '/camp2camp',
   },
   {
     id: nanoid(),
@@ -43,6 +44,7 @@ export const projectsData = [
     info2: 'Deze app zou uiteindelijk ook een account-systeem bevatten, waarop de gebruiker dan zijn vooruitgang kan bezichtigen, feedback kan geven, zijn "doelenboom" kan bekijken, enz..',
     url: 'https://www.figma.com/proto/BP26XtdA5cJC1rxU8LEivT/Waaiburg-App?node-id=37%3A65&scaling=min-zoom&page-id=0%3A1',
     repo: '', // if no repo, the button will not show up
+    infolink: '/dewaaiburg',
   },
   {
     id: nanoid(),
@@ -52,6 +54,7 @@ export const projectsData = [
     info2: '',
     url: '', // if no url, the button will not show up
     repo: '', // if no repo, the button will not show up
+    infolink: '/coecknv',
   },
   {
     id: nanoid(),
@@ -61,6 +64,7 @@ export const projectsData = [
     info2: '',
     url: '', // if no url, the button will not show up
     repo: 'https://github.com/Nick-Schepers/Gatsby-Wiki', // if no repo, the button will not show up
+    infolink: '/gatsby',
   },
 ];
 
